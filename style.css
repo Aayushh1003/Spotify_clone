@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+  background-color: antiquewhite;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hover-links :hover{
+    background-color: rgb(91, 190, 190);
+}
+
+/* navigation bar */
+
+nav{
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* nav ul a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-inline: 23px;
+} */
+
+/* nav ul a {
+    display: flex;
+    text-decoration: none;
+    gap: 100px;
+} */
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height: 70px;
+    list-style: none;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.brand img{
+    width: 65px;
+    margin-inline: 23px;
+}
+
+/* main content */
+
+
+.container{
+   min-height: 72vh;
+   background-color: black;
+   color: white;
+   font-family: 'Varela Round' , 'sans-serif';
+   display: flex;
+   width: 70%;
+   margin: 23px auto;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('./covers/dj2.jpg');
+   background-size: cover;
+}
+
+.songitemcontainer{
+    width: 50vw;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.songitem{
+    height:50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 61%;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songitem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+    display: flex;
+    align-items: center;
+    /* row-gap: 10px; */
+    gap: 5px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round' , 'sans-serif';
+
+}
+
+.songinfo img{
+    opacity: 0;
+    width: 30px;
+    transition: opacity 1s ease-in;
+}
+
+ .bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+ }
+
+ .icons i{
+    cursor: pointer;
+ }
+
+ #myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+ }
