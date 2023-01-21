@@ -1,4 +1,61 @@
+@media screen and (max-width:920px) {
+
+    .container{
+        justify-content: center;
+    }
+    
+    .songitemcontainer{
+        width: 100%;
+    }
+    
+    .songitem{
+        width:100%;
+    }
+
+    .timestamp{
+        display: flex;
+    }
+}
+
 @media screen and (max-width:420px) {
+
+    .container{
+        justify-content: center;
+    }
+
+    .songitemcontainer{
+        width: 100%;
+    }
+    
+    .songitem{
+        width:100%;
+    }
+
+    .timestamp{
+        display: flex;
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    .container{
+        justify-content: center;
+    }
+    
+    .songitemcontainer{
+        width: 100%;
+    }
+    
+    .songitem{
+        width:100%;
+    }
+
+    .timestamp{
+        display: flex;
+    }
+}
+@media screen and (max-width:320px) {
+
 
     .container{
         justify-content: center;
